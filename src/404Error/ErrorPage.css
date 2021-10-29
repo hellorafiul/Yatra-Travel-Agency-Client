@@ -1,0 +1,10 @@
+.error-page img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.errorBtn{
+  color:white;
+  text-decoration: none;
+}
