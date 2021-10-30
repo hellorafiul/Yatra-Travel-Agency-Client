@@ -17,14 +17,14 @@ const Footer = () => {
               <Link to="/home">Home</Link>
               <Link to="/services">Service</Link>
               <Link to="/about">About</Link>
-              <Link to="/contact">Contact</Link>
+              {/* <Link to="/contact">Contact</Link> */}
             </div>
             <div className="footer-social d-md-block d-none">
-              <a href="/facebook"><i className="fab fa-facebook"></i></a>
-              <a href="/twitter"><i className="fab fa-twitter"></i></a>
-              <a href="/linkedin"><i className="fab fa-linkedin-in"></i></a>
-              <a href="/insta"><i className="fab fa-instagram"></i></a>
-              <a href="/youtube"><i className="fab fa-youtube"></i></a>
+              <a href="#"><i className="fab fa-facebook"></i></a>
+              <a href="#"><i className="fab fa-twitter"></i></a>
+              <a href="#"><i className="fab fa-linkedin-in"></i></a>
+              <a href="#"><i className="fab fa-instagram"></i></a>
+              <a href="#"><i className="fab fa-youtube"></i></a>
             </div>
             <p className="pt-4 d-md-block d-none">&copy; 2021 Yatra, Inc. All rights reserved</p>
           </div>
@@ -34,11 +34,11 @@ const Footer = () => {
             <a href="#"><img src={google} alt="" /></a>
           </div>
           <div className="footer-social d-md-none pt-4">
-            <a href="/facebook"><i className="fab fa-facebook"></i></a>
-            <a href="/twitter"><i className="fab fa-twitter"></i></a>
-            <a href="/linkedin"><i className="fab fa-linkedin-in"></i></a>
-            <a href="/instagram"><i className="fab fa-instagram"></i></a>
-            <a href="/youtube"><i className="fab fa-youtube"></i></a>
+            <a href="#"><i className="fab fa-facebook"></i></a>
+            <a href="#"><i className="fab fa-twitter"></i></a>
+            <a href="#"><i className="fab fa-linkedin-in"></i></a>
+            <a href="#"><i className="fab fa-instagram"></i></a>
+            <a href="#"><i className="fab fa-youtube"></i></a>
           </div>
           <p className="d-md-none pt-4 text-white">&copy; 2021 Yatra, Inc. All rights reserved</p>
         </div>

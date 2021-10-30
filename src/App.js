@@ -12,6 +12,8 @@ import Dashboard from './Dashboard/Dashboard';
 import Services from './Services/Services';
 import ErrorPage from './404Error/ErrorPage';
 import Footer from './Footer/Footer';
+import WhyUs from './WhyUs/WhyUs';
+import Special from './Special/Special';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
           </Route>
           <PrivateRoute exact path="/services">
             <Services></Services>
+            <WhyUs></WhyUs>
+            <Special></Special>
           </PrivateRoute>
           <PrivateRoute exact path="/details/:id">
             <Details></Details>

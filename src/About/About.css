@@ -1,0 +1,13 @@
+.about-right h2{
+  text-align: left;
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.about-right img{
+  margin-bottom: -45px;
+  margin-left: -45px;
+}
+.about-right p{
+  font-family: 'Josefin Sans', sans-serif;
+}

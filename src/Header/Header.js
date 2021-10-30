@@ -35,11 +35,11 @@ const Header = () => {
 
               user.email ?
                 <div><p>Howdy, {user?.displayName}!</p>
-                  <button className="btn btn-dark" onClick={logOut}> Sign Out</button>
+                  <button className="btn btn-primary" onClick={logOut}> Sign Out</button>
                 </div>
                 :
                 <li className="nav-item mx-3">
-                  <Link className="text-decoration-none btn btn-dark" to="/login">Login</Link>
+                  <Link className="text-decoration-none btn btn-primary" to="/login">Login</Link>
                 </li>
             }
             {/* <p>Howdy, {user?.displayName}!</p> */}

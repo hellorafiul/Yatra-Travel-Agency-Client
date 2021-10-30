@@ -1,6 +1,6 @@
 import { useHistory, useLocation } from 'react-router-dom';
 import useAuth from "./../Hooks/useAuth";
-
+import loginImg from '../Images/login.svg'
 const Login = () => {
   const { signInWithGoogle, setUser, setIsLoading } = useAuth();
 
@@ -25,8 +25,8 @@ const Login = () => {
 
   return (
     <div className="text-center">
-      <h2>This is Login </h2>
-      <button onClick={handleGoogleLogin}>Google Sign In</button>
+      <img src={loginImg} alt="" className='img-fluid w-25' /><br />
+      <button className='btn btn-primary mb-5' onClick={handleGoogleLogin}><i class="fab fa-google"></i> Google Sign In</button>
     </div>
   );
 };
