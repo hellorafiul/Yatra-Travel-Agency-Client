@@ -1,0 +1,54 @@
+.fab{
+  padding: 0 5px;
+}
+.fab:hover{
+  transform: translateY(-5px); 
+  transition: transform .5s ease-in-out;
+}
+.fa-facebook{
+  color: #1873EB;
+}
+.fa-twitter{
+  color: #4FC5F7;
+}
+.fa-linkedin-in{
+  color: #047CBA;
+}
+.fa-instagram{
+  color: #C5007A;
+}
+.fa-youtube{
+  color: #FF0000;
+}
+.footer-menu a{
+  color: white;
+  text-decoration: none;
+  font-family: Manrope;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 12px 20px 12px 0px;
+}
+.footer-menu a:hover{
+color: #E12454;; 
+}
+.footer-menu p{
+  font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #ffffffbf;
+}
+.footer-right p{
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+.footer-social > a{
+  padding:0px;
+}
+.footer-right img{
+width: 135px;
+}

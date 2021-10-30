@@ -1,0 +1,29 @@
+.countdown-section {
+  background: linear-gradient(rgb(0 0 0 / 82%),rgb(0 0 0 / 62%)), url('../Images/special.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  padding-bottom: 53px;
+  font-family: 'Josefin Sans';
+}
+
+.countdown-title h2 {
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  padding-top: 100px;
+}
+
+.countdown-title p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.countdown-title h2 span {
+  color: #f90;
+}

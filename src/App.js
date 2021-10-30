@@ -11,6 +11,7 @@ import PrivateRoute from './PrivateRoute/PrivateRoute';
 import Dashboard from './Dashboard/Dashboard';
 import Services from './Services/Services';
 import ErrorPage from './404Error/ErrorPage';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
             <ErrorPage></ErrorPage>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </AuthProvider>
 

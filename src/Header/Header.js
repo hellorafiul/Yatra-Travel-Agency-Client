@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import useAuth from './../Hooks/useAuth';
 import logo from '../Images/Yatra.png'
 
-
 const Header = () => {
 
   const { user, logOut } = useAuth()

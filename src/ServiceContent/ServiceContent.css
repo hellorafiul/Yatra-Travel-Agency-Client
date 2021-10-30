@@ -1,0 +1,26 @@
+.package-image {
+  background: linear-gradient(45deg,#d60d45 0%,#046b8c 100%);
+  margin-bottom: 22px;
+}
+.card-title, .card-text{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.package-price {
+  padding: 10px 25px;
+  width: 100%;
+  display: flex;
+  color: #fff;
+}
+
+.package-price .deal-rating {
+  margin: 0 20px 0 0;
+}
+
+.deal-rating span, .sale-review span {
+  color: #ffc63f;
+  font-size: 18px;
+}
+.package-price p {
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
