@@ -30,8 +30,12 @@ const Details = () => {
             body: JSON.stringify(order)
         })
             .then(res => res.json())
-            .then(data => console.log(data))
-        console.log(order);
+            .then(data => {
+                if (data.acknowledged) {
+                    alert('You booking has been confirmed, Now cheek your dashboard!')
+                }
+            })
+
 
     }
     // console.log(user);
@@ -42,7 +46,7 @@ const Details = () => {
             <h2>{specificDetail?.name}</h2>
             <h5>${specificDetail?.price}/PER</h5>
             <p>{specificDetail?.description}</p>
-            <button onClick={() => handleBookNow({ email: user?.email, ...specificDetail })} className='btn btn-primary'>Book Now test</button>
+            <button onClick={() => handleBookNow({ email: user?.email, ...specificDetail })} className='btn btn-primary'>Book Now</button>
         </div>
 
 

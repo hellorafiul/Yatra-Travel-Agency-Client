@@ -35,7 +35,7 @@ const ServiceContent = (props) => {
                     <p className="card-text px-3">{description.substring(0, 190)}...</p>
 
                 </div>
-                <button onClick={() => handleDetails(_id)} className="btn btn-primary">Book Now</button>
+                <button onClick={() => handleDetails(_id)} className="btn btn-primary">View Details</button>
             </div>
         </div>
     );
