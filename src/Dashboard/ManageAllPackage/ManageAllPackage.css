@@ -1,0 +1,15 @@
+.mytable{
+  justify-items: center;
+}
+.manageAllPackage table, th, td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  padding: 5px 20px;
+  text-align: center;
+}
+/* .manageAllPackage tbody, td, tfoot, th, thead, tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: -1px;
+  border-collapse: collapse;
+} */

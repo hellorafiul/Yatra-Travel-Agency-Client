@@ -26,7 +26,7 @@ const Login = () => {
   return (
     <div className="text-center">
       <img src={loginImg} alt="" className='img-fluid w-25' /><br />
-      <button className='btn btn-primary mb-5' onClick={handleGoogleLogin}><i class="fab fa-google"></i> Google Sign In</button>
+      <button className='btn btn-primary mb-5' onClick={handleGoogleLogin}><i className="fab fa-google"></i> Google Sign In</button>
     </div>
   );
 };

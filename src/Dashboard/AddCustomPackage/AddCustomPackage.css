@@ -1,0 +1,11 @@
+.login-form form{
+}
+.login-form input, textarea {
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  padding-right: 153px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}

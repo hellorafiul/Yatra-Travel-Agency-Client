@@ -1,3 +1,8 @@
+.service img{
+  height: 275px;
+  width: 100%;
+}
+
 .package-image {
   background: linear-gradient(45deg,#d60d45 0%,#046b8c 100%);
   margin-bottom: 22px;

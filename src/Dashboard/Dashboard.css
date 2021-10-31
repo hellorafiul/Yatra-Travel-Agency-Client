@@ -1,0 +1,19 @@
+.dashboard{
+  overflow-x: hidden;
+}
+.admin-container{
+min-height: 700px;
+}
+.admin-menu{
+  background-color: #101A32;
+  color:#fff;
+  
+}
+.admin-menu li{
+  list-style: none;
+  cursor: pointer;
+}
+.admin-menu li:hover{
+background-color: #9b9c9e79;
+border-radius: 5px;
+}
