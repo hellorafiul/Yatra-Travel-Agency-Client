@@ -2,11 +2,7 @@
 
 ABOUT [Yatra](https://yatra-62295.web.app/)
 
-Check out the Exciting Schemes Just a Click.
-
-* Amazing Santorini 7 days tour
-* Surfing
-* Hot Air Ballooning
-* Lake Tohoe Adventure
-* Sailing Thailand - Phucket
-* Comfortable Travel 
+* Travel agency website with dynamic functions and responsive design.
+* Allows user to create an account, book packages, add custom packages, and delete them.
+* Google firebase authentication has been added.
+* Technology: BootStrap, JS, React, React router, Heroku, Firebase, Node JS, Node Express, MongoDB 
